@@ -1,1 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.text_to_maps {
+    flex-basis: 50%;
+}
+
+.map {
+    flex-basis: 50%;
+    position: relative;
+}
+
+.map_and_text {
+    display: flex;
+}
+
+.map iframe {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    top: 0;
+    left: 0;
+}
+
+.menu {
+    height: 50px;
+    background-color: #98314F;
+    align-items: center;
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 700;
+}
 
