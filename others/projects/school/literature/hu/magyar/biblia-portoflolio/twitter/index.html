@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter Profile</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		.profile-header {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 20px;
+			padding: 10px;
+			background-color: #fff;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+		}
+
+		.profile-header img {
+			border-radius: 50%;
+			margin-right: 10px;
+		}
+
+		.profile-header h1 {
+			font-size: 24px;
+			font-weight: bold;
+			margin: 0;
+		}
+
+		.tweet {
+			background-color: #fff;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+			padding: 10px;
+			margin-bottom: 20px;
+		}
+
+		.tweet p {
+			font-size: 18px;
+			margin: 0;
+			padding: 10px;
+			border-bottom: 1px solid #ddd;
+		}
+
+		.tweet-footer {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 10px;
+			font-size: 14px;
+			color: #888;
+		}
+
+		.tweet-footer span {
+			margin-right: 10px;
+		}
+
+		.tweet-footer button {
+			background-color: #4caf50;
+			border: none;
+			border-radius: 5px;
+			color: #fff;
+			padding: 10px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="profile-header">
+			<img src="https://via.placeholder.com/150" alt="Profile picture">
+			<h1>John Doe</h1>
+			<button>Follow</button>
+		</div>
+		<div class="tweet">
+			<p>This is my first tweet!</p>
+			<div class="tweet-footer">
+				<span>10 likes</span>
+				<button>Like</button>
+        	</div>
+	</div>
+	<div class="tweet">
+		<p>Just had a great meeting with my team.</p>
+		<div class="tweet-footer">
+			<span>20 retweets</span>
+			<span>50 likes</span>
+			<button>Retweet</button>
+			<button>Like</button>
+		</div>
+	</div>
+	<div class="tweet">
+		<p>Excited to announce the launch of our new product!</p>
+		<div class="tweet-footer">
+			<span>100 retweets</span>
+			<span>200 likes</span>
+			<button>Retweet</button>
+			<button>Like</button>
+		</div>
+	</div>
+</div>
